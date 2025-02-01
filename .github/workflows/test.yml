@@ -18,6 +18,6 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   build:
     steps:
-     -run: cd ${{ github.workspace }}
+      -run: cd ${{ github.workspace }}
       -run: npm install
       -run: npm run build
